@@ -1,0 +1,774 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Black.ttf") format("truetype");
+  font-weight: 900;
+  /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  /* Extra Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 850;
+  /* Heavy */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  /* Semi Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Thin.ttf") format("truetype");
+  font-weight: 100;
+  /* Thin */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-UltraLight.ttf") format("truetype");
+  font-weight: 200;
+  /* Ultra Light */
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dashboard1 {
+  width: 100%;
+  height: auto;
+  background-color: rgba(243, 243, 243, 1);
+}
+
+.dash-level-1 {
+  width: 100%;
+  height: auto;
+  /* height: 177vh; */
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(243, 243, 243, 1);
+}
+
+/* side bar css start */
+.sidebar-main {
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 243px;
+  margin-top: 33px;
+  border-bottom: 1px solid rgba(228, 231, 237, 1);
+}
+
+.logo-box img {
+  margin-bottom: 50px;
+}
+
+.sidenabar-list {
+  width: 243px;
+  height: 384px;
+  margin-top: 74px;
+}
+
+.sidenabar-list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenabar-list ul li {
+  display: flex;
+  align-items: center;
+  width: 219px;
+  height: 48px;
+  padding: 10px 30px;
+  gap: 10px;
+  font-family: 'Gilroy';
+  font-weight: 200;
+  color: rgba(118, 118, 118, 1);
+  font-size: 16px;
+}
+
+.sidenabar-list ul li div {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidenabar-list ul li div img {
+  width: 19px;
+  height: 19px;
+}
+
+.sidenabar-list .dashboard {
+  background-color: rgba(28, 210, 173, 0.1);
+  color: rgba(28, 210, 173, 1);
+  font-family: 'Gilroy';
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.contact_page {
+  position: relative;
+
+}
+
+.sidenabar-list ul li div .attach_money {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+
+}
+
+.list-bottom {
+  height: 128px;
+  margin-top: auto;
+  border-top: 1px solid rgba(228, 231, 237, 1);
+}
+
+.bottom-list-contenet {
+  width: 243px;
+  height: 128px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* side bar css end  */
+
+/* navabar css start */
+.main-navabr-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.navbar-main {
+  width: 100%;
+  height: 245px;
+  background-color: rgba(18, 30, 72, 1);
+  padding: 30px 10px;
+  position: relative;
+}
+
+.navbar-level-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.nav-text h2 {
+  font-family: "Gilroy";
+  font-weight: 200;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+}
+
+.navbar-level-1 h2 span {
+  color: rgba(28, 210, 173, 1);
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 310px;
+}
+
+.input-field {
+  width: 214px;
+  background-color: #29345A;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  height: 40px;
+}
+
+.input-field img {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+}
+
+.nav-icons input {
+  background-color: #29345A;
+  outline: none;
+  padding: 0px 7px;
+  border-radius: 100px;
+  width: 150px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-weight: 200;
+  font-size: 14px;
+
+}
+
+.nav-icons input::placeholder {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29345A;
+  border-radius: 100px;
+  padding: 8px;
+  width: 45px;
+  height: 45px;
+  position: relative;
+}
+
+.notification span {
+  position: absolute;
+  top: -1px;
+  right: 3px;
+  width: 8px;
+  height: 8px;
+  background-color: rgba(236, 74, 74, 1);
+  border: 2px solid rgba(18, 30, 72, 1);
+  border-radius: 100px;
+}
+
+.nav-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+/* nvabar css end  */
+
+/* current project css start  */
+
+.current-project {
+  padding: 50px 10px 10px 10px;
+}
+
+.first-box {
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+  height: auto;
+}
+
+.wrap-current-project {
+  padding: 25px;
+  width: 100%;
+}
+
+.Current-Project-firs-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  flex-wrap: wrap;
+}
+
+.Current-Project-firs-row h4 {
+  color: rgba(28, 28, 40, 1);
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.Current-Project-firs-row button {
+  background-color: rgba(28, 210, 173, 1);
+  width: auto;
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+  padding: 12px 8px 12px 8px;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+
+}
+.current-project-table{
+  width: 100%;
+  height: auto; 
+  overflow-x: auto;
+}
+.current-project-table table{
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+}
+.current-project-table table tr:nth-child(odd){
+  background-color: rgba(249, 251, 251, 1);
+}
+.current-project-table table th{
+  width: 24%;
+  height: 52px;
+  color: rgba(18, 20, 29, 1);
+  font-size: 16px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  text-align: left;
+  padding: 15px;
+}
+.current-project-table table td{
+  width: 20%;
+  height: 52px;
+  font-size: 16px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  color: rgba(142, 144, 166, 1);
+  text-align: left;
+  padding: 15px;
+  position: relative;
+  
+}
+
+/* .current-project-table table th::after {
+  content: ""; 
+  position: absolute;
+  left: 275px;
+  right: -3px;
+  transform: translateY(30px);
+  height: 1px;
+  width: calc(100% - 320px); 
+  background-color:rgba(199, 200, 217, 1);
+} */
+.current-project-table th:last-child{
+  width: 190px;
+}
+.current-project-table td:last-child{
+  padding-left: 25px;
+}
+
+.current-project-table table td div{
+  width: auto; 
+  min-width: 100px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  
+}
+.current-project-table table .blue div{
+  color: rgba(24, 195, 217, 1);
+  background-color: rgba(229, 247, 251, 1);
+}
+.current-project-table table .gray div{
+  color: rgba(170, 170, 170, 1);
+  background-color: rgba(170, 170, 170, 0.2);
+}
+.current-project-table table .green div{
+  color: rgba(28, 210, 173, 1);
+  background-color: rgba(28, 210, 173, 0.2);
+}
+.current-project-table table .red div{
+  color: rgba(236, 74, 74, 1);
+  background-color: rgba(254, 219, 219, 1);
+}
+
+
+
+/* .current-project-table .gray{
+  width: 100px;
+  height: 19px;
+  background: rgba(170, 170, 170, 0.2);
+  border-radius: 20px;
+
+} */
+
+/* current project css end  */
+
+
+/* finace-overview  start*/
+.finace-overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.box-1 {
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0.5px solid rgba(235, 235, 235, 1);
+  /* width: 24%;*/
+  height: 116px; 
+
+  width: 24%; /* Adjust width dynamically */
+  min-width: 220px;
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 4px 8px 0px rgba(18, 30, 72, 0.04);
+
+}
+
+.box-1 img {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.finace-text h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.finace-main {
+  width: 95%;
+  position: absolute;
+  bottom: -60px;
+}
+
+.finace-calcu {
+  width: 87px;
+  height: 52px;
+  margin-left: 25px;
+  font-family: 'Gilroy';
+}
+
+.finace-calcu h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(18, 20, 29, 1);
+}
+
+.finace-calcu p {
+  font-size: 16px;
+  font-weight: 200;
+  color: rgba(18, 20, 29, 1);
+}
+
+
+/* event box css start  */
+
+.events-main{
+  width: 453px;
+  height: 332px;
+  margin-left: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.events-level-1::before{
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 137px;
+  background-color: rgba(199, 200, 217, 1);
+  right: 8px;
+  transform: translateY(50%);
+}
+.events-level-1{
+  width: 453px;
+height: 332px;
+padding: 25px;
+border-radius: 16px;
+background-color: rgba(255, 255, 255, 1);
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+}
+.events-level-1 h5{
+  font-size: 16px;
+  font-family: 'Gilroy';
+  font-size: initial;
+}
+.events-members{
+  display: flex;
+  flex-direction: column;
+}
+.member{
+  width: 405px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.wade-warner{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.photo-box{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+.vishbox{
+  
+  height: 26px;
+  border-radius: 6px;
+  background-color: rgba(30, 136, 229, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Gilroy';
+  font-weight: 700;
+  padding: 15px 8px;
+}
+.photo-box h5{
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 16px;
+}
+.photo-box p{
+  color: rgba(85, 87, 112, 1);
+  font-size: 14px;
+  font-family: 'Gilroy';
+  font-weight: 500;
+}
+.photo-box p span{
+  color: rgba(30, 136, 229, 1);
+}
+/* event box css end  */
+
+
+/* media query start  */
+
+@media (max-width:1380px) {
+  .current-project-table table th{
+    width: 22%;
+  }
+  .current-project-table td:last-child{
+    padding-left: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .current-project-table table th{
+    width: 20%;
+    
+  }
+  .current-project-table th:last-child,
+.current-project-table td:last-child {
+  padding-left: 15px; 
+}
+  
+}
+
+
+@media (max-width:1200px){
+  .finace-overview{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .finace-main{
+    position: static;
+  }
+  .current-project{
+    padding-top: 10px;
+  }
+  .finace-text h1{
+    margin-top: 42px;
+    margin-bottom: 30px;
+  }
+  .finace-main{
+    width: 100%;
+  }
+  .navbar-main{
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  .box-1 {
+    width: 46%;
+    height: 80px; 
+  }
+
+  .finace-calcu h3 {
+    font-size: 18px; 
+  }
+
+  .finace-calcu p {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .box-1 {
+    width: 48%;
+    height: 80px; 
+  }
+
+  .box-1 img {
+    max-width: 40px; 
+  }
+
+  .finace-calcu h3 {
+    font-size: 16px; 
+  }
+
+  .finace-calcu p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box-1 {
+    width: 100%; 
+    height: 70px;
+  }
+
+  .finace-text h1 {
+    font-size: 20px; 
+    margin-bottom: 20px;
+  }
+
+  .box-1 img {
+    max-width: 30px; 
+  }
+
+  .finace-calcu {
+    margin-left: 10px; 
+  }
+
+  .finace-calcu h3 {
+    font-size: 14px; 
+  }
+
+  .finace-calcu p {
+    font-size: 10px; 
+  }
+}
+@media (max-width:600px){
+  .sidebar-main{
+    width: 160px;
+    align-items: center;
+  }
+  .logo-box{
+    width: 160px;
+  }
+  .logo-box img{
+    width: 100px;
+  }
+  .sidenabar-list{
+    width: 160px;
+  }
+  .sidenabar-list ul li{
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgba(243, 243, 243, 1);
+  }
+  .sidenabar-list ul li span{
+    display: none;
+  }
+  .sidenabar-list ul li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  .sidenabar-list ul li div img{
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-level-1{
+    flex-direction: column;
+    align-items: normal;
+    gap: 10px;
+  }
+  .nav-icons{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .input-field{
+    width: 80%;
+    border-radius: 8px;
+    justify-content: start;
+    padding-left: 15px;
+  }
+  
+  .list-bottom{
+    height: 205px;
+  }
+  .bottom-list-contenet{
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}
+@media (max-width:850px){
+  .dashboard1{
+    width: 842px;
+  }
+}
+.main-navabr-column{
+  margin-bottom: 10px;
+}
+/* media query end  */
